@@ -25,5 +25,7 @@ while len(temp_words) > 0:
 
 if len(wrong) == 0:
     print("None wrong!")
+    time.sleep(10)
 else:
     print("Wrong: ", wrong)
+    time.sleep(10)
